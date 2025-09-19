@@ -11,34 +11,39 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
-  height: 100dvh;
+  width: 1280px;
+  height: 720px;
   background: linear-gradient(to right, #5e84ff, #fff799);
-  
 }
 
 .blue-bg {
   flex-flow: column;
   justify-content: space-between;
   align-items: stretch;
-  padding: 4rem;
+  padding: 40px;
   display: flex;
-  gap: 20px;
 }
 
 .text-big {
-  font-size: 4rem;
-  
+  font-size: 80px;
+  margin-bottom: 20px;
   font-weight: 400;
-  color: white;
 }
 
 .text-small {
-  font-size: 2rem;
-
+  font-size: 40px;
+  margin-bottom: 20px;
   font-weight: 400;
-  color: white;
+}
+
+.dimedis-logo {
+  margin-top: 40px;
 }
 
 .dimedis-logo img {
-  max-width: 120px;
+  max-width: 140px;
+}
+
+.texte {
+  color: white;
 }
