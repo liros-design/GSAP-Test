@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100dvh;
   background: linear-gradient(to right, #5e84ff, #fff799);
-  margin: 0;
+  
 }
 
 .blue-bg {
@@ -14,18 +14,19 @@ body {
   align-items: stretch;
   padding: 4rem;
   display: flex;
+  gap: 20px;
 }
 
 .text-big {
   font-size: 4rem;
-  margin-bottom: 0.5rem;
+  
   font-weight: 400;
   color: white;
 }
 
 .text-small {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
+
   font-weight: 400;
   color: white;
 }
