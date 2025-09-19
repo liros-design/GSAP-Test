@@ -4,6 +4,7 @@ gsap.from(".text-big", {
   opacity: 0,
   duration: 3,
   ease: "power2.out",
+  delay: 0.2,
   repeat: -1,
   repeatDelay: 2
 });
@@ -13,6 +14,7 @@ gsap.from(".text-small", {
   opacity: 0,
   duration: 3,
   ease: "power2.out",
+  delay: 0.5,
   repeat: -1,
   repeatDelay: 2
 });
@@ -21,7 +23,7 @@ gsap.from(".dimedis-logo img", {
   x: -50,
   opacity: 0,
   duration: 3,
-  delay: 0.5,
+  delay: 0.8,
   ease: "power2.out",
   repeat: -1,
   repeatDelay: 2
