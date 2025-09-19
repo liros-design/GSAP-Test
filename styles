@@ -1,0 +1,35 @@
+body {
+  font-family: "TT Norms Pro", sans-serif;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100dvh;
+  background: linear-gradient(to right, #5e84ff, #fff799);
+  margin: 0;
+}
+
+.blue-bg {
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 4rem;
+  display: flex;
+}
+
+.text-big {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  color: white;
+}
+
+.text-small {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  color: white;
+}
+
+.dimedis-logo img {
+  max-width: 120px;
+}
