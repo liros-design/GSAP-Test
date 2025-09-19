@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test GSAP</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+<div class="blue-bg">
+  <div class="texte">
+    <h3 class="text-big">Willkommen bei dimedis!</h3>
+    <h3 class="text-small">Lorem ipsum, dolor sin amet.</h3>
+  </div>
+
+  <div class="dimedis-logo">
+    <img src="https://cdn.prod.website-files.com/68b1a13f0b2c52d8bf85c614/68cd234faf288fb692e66dfc_logo.svg" alt="dimedis logo" />
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
